@@ -1,0 +1,8 @@
+<DOCTYPE messages[
+    <!ELEMENT message(dest+,contenu)>
+    <!ELEMENT dest(#CDATA)>
+    <!ELEMENT contenu(#PCDATA)>
+    <!ATTLIST message numero (ID) #REQUIRED date(CDATA) #IMPLIED>
+    <!ATTLIST dest (oui/no) #IMPLIED>
+]
+>

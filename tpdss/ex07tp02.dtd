@@ -1,0 +1,3 @@
+<!ELEMENT math (mrow+)>
+<!ELEMENT mrow ( (msup,mo,mn)+)>
+<!ELEMENT msup (mi,mn)>
